@@ -1,0 +1,5 @@
+= Display a 'last reviews' box on the home page
+
+Display a home-page box of the your 10 last reviewed changesets (cross project).
+
+/!\ Beware, you'll need the 'socialify' branch of my redmine fork (https://github.com/redox/redmine/tree/socialify) /!\

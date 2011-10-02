@@ -1,0 +1,8 @@
+<div id="activity" class="news box">
+  <h3><%= t :last_reviews %></h3>
+  <dl>
+    <% changesets.each do |e| -%>
+      <%= render :partial => '/common/activity', :object => e %>
+    <% end -%>
+  </dl>
+</div>
